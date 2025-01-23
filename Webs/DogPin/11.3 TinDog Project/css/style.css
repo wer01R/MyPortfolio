@@ -1,0 +1,136 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title {
+  width: 100vw;
+  height: 80vh;
+
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+#title .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#title .btn img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#title .download {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#title .download h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+#title .download button {
+  height: 4rem;
+  width: 12rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#title .download div {
+  max-width: 65%;
+}
+
+#title .picture {
+  width: 50%;
+  height: 100%;
+}
+
+#title .picture img {
+  height: 100%;
+  float: left;
+  padding-top: 10%;
+}
+#features > .container {
+  padding: 0;
+}
+#features > .container p {
+  font-size: 1.25rem;
+}
+#features > .container h3 {
+  font-size: 2.5rem !important;
+}
+#features > .container svg {
+  height: 35px !important;
+}
+#features > .container .col {
+}
+
+.icon-square {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+.mb-1 {
+  margin-bottom: 2rem;
+}
+
+#footer {
+  height: 40vh;
+}
+
+#footer .row .col-12 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  font-size: 1.5rem;
+}
+
+#footer footer {
+  height: 100%;
+}
+
+#footer a {
+  color: #58323A !important;
+  font-size: 1.25rem;
+}
+#footer h5 {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 85% !important;
+}
